@@ -1,0 +1,26 @@
+.about-us-body {
+  min-height: 80vh;
+}
+
+.about-us-card {
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+  min-height: 70vh;
+  padding: 30px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.about-us-card h1 {
+  font-size: 25px;
+  text-align: center;
+  border-bottom: 5px solid black;
+  padding-bottom: 20px;
+  width: fit-content;
+}
+
+.about-us-card p {
+  text-align: justify;
+  font-size: 13px;
+}
